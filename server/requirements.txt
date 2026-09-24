@@ -3,3 +3,6 @@ Django
 Pillow
 gunicorn
 python-dotenv
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR,'frontend/static')
+]
